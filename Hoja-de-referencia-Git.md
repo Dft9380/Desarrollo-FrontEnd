@@ -13,6 +13,14 @@ Marco de colores para los comando
 	git config --global color.ui true
 ```
 
+## Básicos
+
+Crear Carpeta
+```ssh
+	mkdir nombreCarpeta
+```
+
+
 ## Iniciando repositorio
 
 Iniciamos GIT en la carpeta donde esta el proyecto
