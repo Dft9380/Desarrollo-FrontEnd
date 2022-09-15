@@ -20,6 +20,55 @@ Crear Carpeta
 	mkdir nombreCarpeta
 ```
 
+Mover un Archivo a una Carpeta
+
+```ssh
+	mv archivo.txt NombreDeLaCarpeta/
+```
+
+Mover a una Ruta Especifica
+
+```ssh
+	mv archivo.txt /home/usuario/Documentos/NombreDelaCarpeta
+```
+
+Mover varios Archivos
+
+```ssh
+	mv archivo.1 archivo.2 archivo.3 /ruta/de/destino
+```
+
+Copiar un Archivo
+
+```ssh
+	cp objetoacopiar rutadedestino
+```
+
+Copiar un Archivo en Ruta Especifica
+
+```ssh
+	cp archivo.txt /ruta/de/destino
+```
+
+Copiar varios archivos o carpetas:
+
+```ssh
+	cp archivo1 /carpeta1 /carpeta/carpeta /ruta/de/destino
+```
+
+si queremos copiar todo lo que contiene la carpeta donde estamos posicionados a otro directorio:
+
+```ssh
+	cp  /* /ruta/de/destino
+```
+
+Ahora si queremos copiar un directorio de un lugar a otro:
+
+```ssh
+	cp /directorio /ruta/de/destino
+```
+
+
 
 ## Iniciando repositorio
 
