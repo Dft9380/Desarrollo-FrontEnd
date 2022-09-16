@@ -15,7 +15,14 @@ Marco de colores para los comando
 
 ## Básicos
 
+ver en que directorio estoy: 
+
+```ssh
+	pwd
+```
+
 Crear Carpeta
+
 ```ssh
 	mkdir nombreCarpeta
 ```
@@ -67,6 +74,46 @@ Ahora si queremos copiar un directorio de un lugar a otro:
 ```ssh
 	cp /directorio /ruta/de/destino
 ```
+
+Crear un archivo de texto : 
+
+```ssh
+	touch nombreArchivo.txt
+```
+
+Saber que dice un archivo de texto: 
+
+```ssh
+	cat nombreArchivo.txt 
+```
+
+Escribir dentro de un archivo de texto: 
+
+```ssh
+	vim nombreArchivo.txt escribir lo que quiera
+```
+
+Comparar cambios en un archivo: 
+
+```ssh
+	git diff nombreDelArchivo
+```
+
+Comparar cambios entre archivos:
+
+```ssh
+	git diff nombreDelArchivo1 nombreDelArchivo2
+```
+
+Buscar los cambios especificos de un archivo:
+(fechas, tiempos y usuarios que realizaron cambios)
+
+```ssh
+	git blame nombreDelArchivo
+```
+
+
+
 
 
 
