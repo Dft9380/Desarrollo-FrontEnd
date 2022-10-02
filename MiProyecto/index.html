@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <!--Configura el ancho de la pagina al ancho del dispositivo, y el nivel de zoom-->
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <title>Hair Day</title>
     <meta name="description" content="peluquería boutique que se especializa en corte, color y estilo.">
@@ -19,7 +19,9 @@
 <body>
     <!--la cabecera de una web, ojo, no confundir con la etiqueta head.-->
     <header>
-        <img src="logo.png">
+        <div style="text-align: center;">
+        <img width="40%" src="logo.png">
+        </div>
     </header>
     <!--establece un apartado con enlaces de la página, por ejemplo, un menú.-->
     <nav>
@@ -33,23 +35,45 @@
     </nav>
     <!--expresa el contenido principal de un documento.-->
     <main>
-
-    </main>
     <!--define una sección de un documento.-->
-    <section>
+        <section>
+            <!--indica que el contenido encerrado dentro de las etiquetas es un artículo.-->
+            <article>
+                <h1>Titulo 1</h1>
+                <p>
+                    Aqui adentro tiene que haber una descripcion del contenido
+                </p>
+            </article>
+            <article>
+                <h2>Titulo 2</h2>
+                <p>
+                    Aqui adentro tiene que haber una descripcion del contenido
+                </p>
+            </article>
+            <article>
+                <h2>Titulo 3</h2>
+                <p>
+                    Aqui adentro tiene que haber una descripcion del contenido
+                </p>
+            </article>
+        </section>
+    </main>
 
-    </section>
-    <!--indica que el contenido encerrado dentro de las etiquetas es un artículo.-->
-    <article>
-
-    </article>
+    
     <!--el contenido lateral de una página.-->
     <aside>
-
+        <!--no lo usamos en este proyecto-->
     </aside>
+
+
     <!--hace referencia al pie de una página o sección.-->
     <footer>
-
+        <div style="text-align: center;">
+            <img width="10%" src="foter.png">
+        </div>
+        <div>
+            <p>Aqui va el Copyright</p>
+        </div>
     </footer>
     
 </body>
